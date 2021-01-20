@@ -1,0 +1,319 @@
+{
+       "intents": [
+              {
+                     "tag": "Python",
+                     "patterns": [
+                            "What is Python",
+                            "Benefits of Python"
+                     ],
+                     "responses": [
+                            "Python is a programming language with objects, modules, threads, exceptions and automatic memory management. The benefits of pythons are that it is simple and easy, portable, extensible, build-in data structure and it is an open source."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tag": "PEP8",
+                     "patterns": [
+                            "What is PEP8",
+                            "Define PEP8"
+                     ],
+                     "responses": [
+                            "PEP 8 is a coding convention, a set of recommendation, about how to write your Python code more readable."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tag": "Pickling and Unpickling",
+                     "patterns": [
+                            "What is pickling",
+                            "What is unpickling"
+                     ],
+                     "responses": [
+                            "Pickle module accepts any Python object and converts it into a string representation and dumps it into a file by using dump function."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tag": "Interpreter Based",
+                     "patterns": [
+                            "What is interpreter",
+                            "how python is interpreter based language"
+                     ],
+                     "responses": [
+                            "Python language is an interpreted language. Python program runs directly from the source code. It converts the source code that is written by the programmer into an intermediate language, which is again translated into machine language that has to be executed."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tag": "Memory Management",
+                     "patterns": [
+                            "How memory is managed in Python"
+                     ],
+                     "responses": [
+                            "Python memory is managed by Python private heap space. All Python objects and data structures are located in a private heap."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tag": "Bugs",
+                     "patterns": [
+                            "What are the tools that finds the bugs",
+                            "What are the tools that perform static analysis"
+                     ],
+                     "responses": [
+                            "PyChecker is a static analysis tool that detects the bugs in Python source code and warns about the style and complexity of the bug."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tags": "Python Decorators",
+                     "patterns": [
+                            "What are Python Decorators?"
+                     ],
+                     "responses": [
+                            "A Python decorator is a specific change that we make in Python syntax to alter functions easily."
+                     ]
+              },
+              {
+                     "tags": "List and Tuple",
+                     "patterns": [
+                            "What is list?",
+                            "What is tuple",
+                            "what is the diffeerence between a list and a tuple"
+                     ],
+                     "responses": [
+                            "The difference between list and tuple is that list is mutable while tuple is not. Tuple can be hashed for e.g as a key for dictionaries."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tags": "Argumesnts",
+                     "patterns": [
+                            "how are arguments passed?"
+                     ],
+                     "responses": [
+                            "Everything in Python is an object and all variables hold references to the objects."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tags": "Dictionary and List",
+                     "patterns": [
+                            "What is Dict and List comprehensions are?"
+                     ],
+                     "responses": [
+                            "They are syntax constructions to ease the creation of a Dictionary or List based on existing iterable."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tags": "Built-in types",
+                     "patterns": [
+                            "What are the built-in type does python provides?"
+                     ],
+                     "responses": [
+                            "Mutable built-in types  *Lists *Sets *Dictionaries. Immutable built-in types *Strings *Tuples *Numbers"
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tags": "Namespace",
+                     "patterns": [
+                            "What are namespaces in Python?"
+                     ],
+                     "responses": [
+                            "In Python, every name introduced has a place where it lives and can be hooked for. This is known as namespace."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tags": "Lambda in Python",
+                     "patterns": [
+                            "What is lambda in Python?"
+                     ],
+                     "responses": [
+                            "It is a single expression anonymous function often used as inline function."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tags": "Lambda Statements",
+                     "patterns": [
+                            "Why lambda forms in python does not have statements?"
+                     ],
+                     "responses": [
+                            "A lambda form in python does not have statements as it is used to make new function object and then return them at runtime."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tags": "Pass Statement",
+                     "patterns": [
+                            "What is pass in Python?"
+                     ],
+                     "responses": [
+                            "Pass means, no-operation Python statement, or in other words it is a place holder in compound statement, where there should be a blank left."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tags": "Iterators",
+                     "patterns": [
+                            "What are Iterators?",
+                            "In Python what are iterators?"
+                     ],
+                     "responses": [
+                            "In Python, iterators are used to iterate a group of elements, containers like list."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tags": "Unitest",
+                     "patterns": [
+                            "What is unittest in Python?"
+                     ],
+                     "responses": [
+                            "A unit testing framework in Python is known as unittest.  It supports sharing of setups, automation testing, shutdown code for tests."
+                     ],
+                     "contxt_set": ""
+              },
+              {
+                     "tags": "Slicing",
+                     "patterns": [
+                            "In Python what is slicing?"
+                     ],
+                     "responses": [
+                            "A mechanism to select a range of items from sequence types like list, tuple, strings etc. is known as slicing."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tags": "Generators",
+                     "patterns": [
+                            "What are generators in Python?"
+                     ],
+                     "responses": [
+                            "The way of implementing iterators are known as generators.  It is a normal function except that it yields expression in the function."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tags": "Docstring",
+                     "patterns": [
+                            "What is docstring in Python?"
+                     ],
+                     "responses": [
+                            "A Python documentation string is known as docstring, it is a way of documenting Python functions, modules and classes."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tags": "Copying an Object",
+                     "patterns": [
+                            "How can you copy an object in Python?"
+                     ],
+                     "responses": [
+                            "To copy an object in Python, you can try copy.copy () or copy.deepcopy() for the general case. You cannot copy all objects but most of them."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tags": "Negative Indexing",
+                     "patterns": [
+                            "What is negative index in Python?"
+                     ],
+                     "responses": [
+                            "Python sequences can be index in positive and negative numbers.   For positive index, 0 is the first index, 1 is the second index and so forth. For negative index, (-1) is the last index and (-2) is the second last index and so forth."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tags": "Converting a number to string",
+                     "patterns": [
+                            "How you can convert a number to a string?"
+                     ],
+                     "responses": [
+                            "In order to convert a number into a string, use the inbuilt function str().If you want a octal or hexadecimal representation,use the inbuilt function oct() or hex()."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tags": "Difference between Xrange and range",
+                     "patterns": [
+                            "What is the difference between Xrange and range?"
+                     ],
+                     "responses": [
+                            "Xrange returns the xrange object while range returns the list, and uses the same memory and no matter what the range size is."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tag": "Flask",
+                     "patterns": [
+                            "Explain what is the common way for the Flask script to work?",
+                            "Explain how you can access sessions in Flask?",
+                            "Explain database connection in Python Flask?"
+                     ],
+                     "responses": [
+                            "The common way for the flask script to work is it should be the import path for your application Or the path to a Python file",
+                            "Flask supports database powered application.Such system requires creating a schema, which requires piping the shema.sql file into a sqlite3 command.  So you need to install sqlite3 command in order to create or initiate the database in Flask.Flask allows to request database in three ways before_request() : They are called before a request and pass no arguments after_request() : They are called after a request and pass the response that will be sent to the client teardown_request(): They are called in situation when exception is raised, and response are not guaranteed. They are called after the response been constructed.  They are not allowed to modify the request, and their values are ignored."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tag": "Memcached",
+                     "patterns": [
+                            "Explain how you can minimize the Memcached server outages in your Python Development?",
+                            "Explain how Memcached should not be used in your Python project?"
+                     ],
+                     "responses": [
+                            "•  Another way is to bring up an instance of Memcached on a new machine using the lost machines IP address\n•  When one instance fails, several of them goes down, this will put larger load on the database server when lost data is reloaded as client make a request. To avoid this, if your code has been written to minimize cache stampedes then it will leave a minimal impact\n•  Code is another option to minimize server outages as it gives you the liberty to change the Memcached server list with minimal work\n•  Setting timeout value is another option that some Memcached clients implement for Memcached server outage. When your Memcached server goes down, the client will keep trying to send a request till the time-out limit is reached.",
+                            "•  Memcached common misuse is to use it as a data store, and not as a cache\n•  Never use Memcached as the only source of the information you need to run your application. Data should always be available through another source as well\n•  Memcached is just a key or value store and cannot perform query over the data or iterate over the contents to extract information\n•  Memcached does not offer any form of security either in encryption or authentication"
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tag": "Dogpile effect",
+                     "pattern": [
+                            "Explain what is Dogpile effect? How can you prevent this effect?"
+                     ],
+                     "responses": [
+                            "Dogpile effect is referred to the event when cache expires, and websites are hit by the multiple requests made by the client at the same time. This effect can be prevented by using semaphore lock. In this system when value expires, first process acquires the lock and starts generating new value."
+                     ],
+                     "cpntext_set": ""
+              },
+              {
+                     "tag": "Python",
+                     "patterns": [
+                            "How do we interpret Python?",
+                            "What is a Python decorator?",
+                            "What is Lambda in Python?"
+                     ],
+                     "responses": [
+                            "The source code that the programmer writes converted into language that is then translated into a language that needs to be executed by a machine. Python language is an interpreted language. The program runs directly from the source code and converts",
+                            "A Python decorator is a specific change that is made in Python syntax to effortlessly modify functions.",
+                            "Lambda is a single expression anonymous function that is mostly used as inline function."
+                     ]
+              },
+              {
+                     "tag": "list and tuple",
+                     "patterns": [
+                            "What is the difference between list and tuple?"
+                     ],
+                     "responses": [
+                            "While list is mutable, tuple is not. One can hash tuple, for instance, as a key for dictionaries."
+                     ],
+                     "context_set": ""
+              },
+              {
+                     "tag": "dict and list",
+                     "Patterns": [
+                            "What are Dict and List Comprehensions?"
+                     ],
+                     "responses": [
+                            "These are syntax constructions that help to simplify the creation of a dictionary or list based on iterable that already exists."
+                     ],
+                     "context_set": ""
+              }
+       ]
+}

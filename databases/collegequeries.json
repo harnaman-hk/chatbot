@@ -1,0 +1,242 @@
+{
+    "intents": [
+        {
+            "patterns": [
+                "Is ragging allowed in campus?",
+                "is ragging common",
+                "what anti-ragging rules have been made for the students"
+            ],
+            "tag": "Safety",
+            "responses": [
+                "You can find further information her : http://students.iitmandi.ac.in/antiragging_swd.php",
+                "Ragging is not at all common and strict guidelines are followed to avoid it.",
+                "No IIT Mandi have a strict policy against this type of actions. If anyone found guilty he or she would be terminated from the college"
+            ]
+        },
+        {
+            "patterns": [
+                "is branch change possible?",
+                "criteria for branch change?",
+                "what are the possible branches in which I can switch to?",
+                "till when can we change our branch?",
+                "how to change branch?",
+                "what is the branch change policy?",
+                "what were last years criteria for branch change?"
+            ],
+            "tag": "branchchange",
+            "responses": [
+                "Yes the branch change policy is available at IIT mandi.",
+                "Branch change at IIT Mandi is completely merit based. You can find the criteria for branch change on this website: https://www.iitmandi.ac.in/academics/branch_change.php"
+            ]
+        },
+        {
+            "patterns": [
+                "do we have co-ed hostels?",
+                "how many persons are assigned to one room",
+                "is changing or swapping of hostels or rooms or roommates possible?",
+                "what are hostel fees",
+                "how far is my hostel from academic buldings and offices",
+                "do we have curfew in hostels?",
+                "till when can we stay outside hostel",
+                "how safe are the hostels?",
+                "do we have safety and security in our hostels?",
+                "what is the criteria to avail hostel facility\t",
+                "is there a diffrential fee structure for girls hostel\t",
+                "what are the mess and canteen facility for students\t",
+                "name and contact of hostel authorities\t"
+            ],
+            "tag": "hostel-life",
+            "responses": [
+                "No, iit mandi does not have any co-ed hostels.",
+                "Generally for 1st year students there may be 2 or 3 persons in a single room.From 2nd year onwards one can opt for single rooms as per the availability",
+                "Yes, the hostel rooms can be swapped if required.",
+                "Since both hostels and academic buildings are located in the campus, your hostel would merely be at a walking distance of 5-8 minutes at max from your residing buildings",
+                "There is as such no particular criteria to avail hostel facilities, everyone is alotted a room on the first day at campus itself",
+                "hostels are quite safe and secure with all facilities equipped and guards available 24*7 "
+            ]
+        },
+        {
+            "patterns": [
+                "where is our campus located",
+                "what is the easiest way to visit campus? (via delhi/chandigarh)",
+                "is our campus safe from wild animals",
+                "what is the distance of campus from mandi town and, market",
+                "what are the transportation facilities provided by the college",
+                "what are the good tourist places around campus",
+                "how is climate in mandi?",
+                "What are the banking facilities at the campus?",
+                "How are the medical facilities at the campus?",
+                "do we have snowfalls too?"
+            ],
+            "tag": "location",
+            "responses": [
+                "The main campus of IIT Mandi is in Kamand valley. The village is located in Mandi Tehsil of Mandi district in Himachal Pradesh.",
+                "You can find the details on how to reach campus from this website: https://www.iitmandi.ac.in/institute/campus/how_to_reach.php",
+                "The climate varies from hot and sub-humid tropical in the southern tracts to cold, alpine and glacial in the northern and eastern mountain ranges with more elevation.",
+                "There are two banks with their ATM facilities (State Bank of India and Punjab National Bank) in the main campus.",
+                "Yes iit mandi experiences snow fall at times.",
+                "IIT Mandi has a medical unit consisting of female and male doctors, staff nurses and pharmacist in both the North and South campuses. "
+            ]
+        },
+        {
+            "patterns": [
+                "what is the highest package in each branch?",
+                "who received highest package",
+                "this year's placement data",
+                "other years placement data",
+                "what are the various roles offered by companies",
+                "what does the carreer and placement cell do?",
+                "which companies recruit from college",
+                "what is the right way to prepare for placements"
+            ],
+            "tag": "intern/placement",
+            "responses": [
+                "You can find the statistics on the follwoing website: http://research.iitmandi.ac.in/main/placements/files/The%20placement%20stat%202019-20.pdf",
+                "You can find the statistics on the follwoing website: http://research.iitmandi.ac.in/main/placements/files/Placement%20_Statistics(2018-19).pdf and also on this http://research.iitmandi.ac.in/main/placements/files/placement_statistics_2017-18.pdf"
+            ]
+        },
+        {
+            "patterns": [
+                "is there opportunity for higher studies?",
+                "are any classes run for higher studies",
+                "did anyone go to colleges like mit from iit mandi"
+            ],
+            "tag": "higher studies"
+        },
+        {
+            "patterns": [
+                "which fests are conducted in iit mandi?",
+                "can freshers participate in the fests?",
+                "does iit mandi host inter college fests?",
+                "who all come for the pronites?",
+                "are there any clubs in iit mandi?"
+            ],
+            "tag": "fests",
+            "responses": [
+                "Yes, freshers are encouraged to participate in various fests taking place in the college.",
+                "various well known celebs of diff, generes come for pronights.",
+                "The different fests at our campus include Exodia, Ruvaan, Rann-neeti, Frosthack, and Astrax.  Exodia is the overall tech-cult fest of IIT Mandi while during rann-neeti various intercollege sports events are held."
+            ]
+        },
+        {
+            "patterns": [
+                "which clubs are there in iit mandi?",
+                "No particular no. of clubs is mentioned. The clubs one may join is based on individual interests.",
+                "how many clubs should one be a part of?",
+                "how many clubs are there in iit mandi?",
+                "is there any criteria to be a part of xyz club?",
+                "how can i be a part of a club?"
+            ],
+            "tag": "clubs",
+            "responses": [
+                "Different clubs like udc, pmc, designauts, literary club etc. are present at iit mandi.For more information visit: gymkhana.iitmandi.co.in",
+                "There are a lot of clubs in IIT Mandi based on individual interests.For more information visit the given website: https://gymkhana.iitmandi.co.in/",
+                "No such criteria is there but to be a member of any club you have to participate in activites organized by them.",
+                "To be a part of a club you just have to participate in various activities organized by the club."
+            ]
+        },
+        {
+            "patterns": [
+                "which sports are played in iit mandi?",
+                "how is the sports faciliy of the college?",
+                "are there any tournaments?",
+                "does the college have football?",
+                "can i play for inter iit ?"
+            ],
+            "tag": "sports",
+            "responses": [
+                "The various sports at iit mandi include: Cricket, volleyball, Tennis etc. For detailed info refer: https://wiki.iitmandi.co.in/p/Sports_Society",
+                "Physical education and sports section, IIT Mandi, coordinates all the sports activities and gives special attention to interested students by providing them with well-experienced coaches and adequate facilities.",
+                "Yes, there are tournaments like Intra-college tournaments, Rann-neeti, Inter-college tournaments and Inter IIT sports meet.",
+                "Yes, iit mandi is having a well mantained football club as well as different clubs for each sport.",
+                "Yes, everyone who is eligible can play for inter iit tournament."
+            ]
+        },
+        {
+            "patterns": [
+                "Apart from studies, what other activities are students able to engage in the college ?",
+                "how is student life at college",
+                "how is student life at iit mandi"
+            ],
+            "tag": "student_activities",
+            "responses": [
+                "The students at iit mandi get indulge in various different activites like debates, tech. fests etc. For more details refer: https://students.iitmandi.ac.in/~u_shivateja/cnp/student-life.php",
+                "The student life of iit mandi is very interesting and full of various chances to explore and learn via different means. For more details refer to the following website: https://students.iitmandi.ac.in/~u_shivateja/cnp/student-life.php"
+            ]
+        },
+        {
+            "patterns": [
+                "Are there any student bodies at iit mandi?",
+                "what is the batch size\t",
+                "Where can we find all the books recommend to us?",
+                "what is the present grading system?",
+                "How are the semesters divided ?",
+                "what is the course duration?",
+                "Can you provide us with the college calendar?",
+                "what all courses are offered in the Computer science & engineering progam?",
+                "what all courses are offered in the Electrical engineering progam?",
+                "what all courses are offered in the Mech engineering progam?",
+                "what all courses are offered in the Bio engineering progam?",
+                "what all courses are offered in the Civil engineering progam?",
+                "What are the electives offered ?",
+                "What types of scolarships are offered for OBC/SC/ST students by the institute?"
+            ],
+            "tag": "Academics",
+            "responses": [
+                "yes, you can find the related information on this website: https://gymkhana.iitmandi.co.in/",
+                "You can find the books recommended by professors on this website:  https://www.iitmandi.ac.in/academics/courselist_aug-dec2020.html",
+                "You can find the required e-books on the web or on IIT Mandi Library website: library.iitmandi.ac.in If you want to access it remotely follow the instructions: https://library.iitmandi.ac.in/pdf/Help%20files/Remote%20Access.pdf",
+                "curreently iit mandi follows CGPA grading sceme: http://iitmandi.ac.in/academics/evaluation.php",
+                "There are two semesters each year divided as: odd sem:aug-dec and even sem:feb-june",
+                "4years for b.tech programme and 5 yrs for dual degree courses",
+                "Yes, the college calender is available at the given site: https://iitmandi.ac.in/index.html",
+                "The detailed list can be found here: https://iitmandi.ac.in/academics/courses.php",
+                "You can find the details of scholarships provided by IIT Mandi on this website: https://www.iitmandi.ac.in/academics/scholarship.php",
+                "The list of electives for various courses can be found here: http://iitmandi.ac.in/academics/minor_program.php"
+            ]
+        },
+        {
+            "patterns": [
+                "how many faculy members are their in the electronics department\t",
+                "Give some information about the faculty.\t",
+                "What are the qualifications of the teaching faculty?\t",
+                "where is the faculty located",
+                "can i approch faculty for research project",
+                "how can i apply as a facutly member",
+                "what is the hiring pattern for teachers",
+                "what is the student facuty ratio",
+                "give me data about faculties in the electronics department\t",
+                "how accessible are faculty to students",
+                "how many teaching faculty are there in total?\t",
+                "Give information about the teaching staff?\t"
+            ],
+            "tag": "Faculty",
+            "responses": [
+                "You can find all information related to faculty here http://www.iitmandi.ac.in/institute/faculty/faculty.php"
+            ]
+        },
+        {
+            "patterns": [
+                "what financial aid is provided to the students\t"
+            ],
+            "tag": "Alumni and college support",
+            "responses": [
+                "The college administration as such doesn't provides with much of financial aid, however , some alumnis have recently came forward to help some financially deprived students."
+            ]
+        },
+        {
+            "patterns": [
+                "How many buildings are there in the college?\t",
+                "Can you tell us about the college infrastructure?",
+                "How is the college infrastructure divided?",
+                "What different types of labs are there for the students to learn in ?",
+                "how is the interior of the college?"
+            ],
+            "tag": "Infrastucture",
+            "responses": [
+                "IIT Mandi started its journey in 2009 with 510 acres (210 ha) of grassland on the banks of river [Uhl River/ Uhl] in the village Kamand of Himachal Pradesh, 460 kilometres (290 mi) away from New Delhi. It is still in it's growing and developing age and has two campus namely North and south campus, which are at a distance of around 5kms but well connected by buses and transportation provided by the college administration.",
+                "Here is a list of different labs and academic buildings we have at campus\n1. A9 Innovation Hub: This 5-storey hub-shaped building has a Design & Innovation Lab and Exhibition area on the ground and 1st floors. Above this is the Registrar's and other Administrative offices. Next is a Satellite Library and research labs. The top floor houses the Director's Office, Board Room, and research labs. Radiating up the valley from the hub are the A10-A13 and A11-A14 academic spines.\n2. A10 : The 4 story building which houses some of the faculty offices apart from many medium to large sized classrooms.\n3. A13 : The building hosts the 300 seater classroom in addition to other small to medium-sized classrooms.\n4. A16 : The Central Library of the institute\n5. A1 : Houses an NKN classroom, some faculty offices, and other small-sized classrooms.\n6. A2 : The building is known as the AMRC, or the, Advanced Material Research Centre, which is a multi-disciplinary hub for research facilities at IIT Mandi\n7. A3 : Houses some of the faculty offices and the office of the Dean (Academics).\n8. A4 : Houses some of the faculty offices and a medium-sized conference room with NKN connectivity.\n9. A5 : Currently houses the Central Library, 3 PC labs, and a few small-sized classrooms.\n10. A6 : Apart from housing some of the faculty offices, the building primarily hosts the BioX Centre.\n11. A7 : Hosts the Director's Office, the Registrar's Office, the Finance and Accounts office, and some faculty offices\n12. A9 : Houses a big classroom with a capacity of around 200 students.\n13. SC-NKN : Stable Complex – NKN, or SC-NKN as it is called, the building has a small classroom (having NKN connectivity) along with some other laboratories\n14. Mechanical Workshop"
+            ]
+        }
+    ]
+}
