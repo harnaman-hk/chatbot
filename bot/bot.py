@@ -22,11 +22,38 @@ import re
 
 TOKEN = os.environ.get("SECRET_KEY")
 
-def load_model():
+def load():
   try:
+    global words, labels, training, output, stemmer, data
+
+    with open("greetings.json") as file:
+      data = json.load(file)
+
+    with open("coding1.json") as file:
+      data["intents"].extend(json.load(file)["intents"])
+
+    with open("coding2.json") as file:
+      data["intents"].extend(json.load(file)["intents"])
+
+    with open("coding3.json") as file:
+      data["intents"].extend(json.load(file)["intents"])
+
+    with open("collegequeries.json") as file:
+      data["intents"].extend(json.load(file)["intents"])
+
     with open("data.pickle", "rb") as f:
       words, labels, training, output = pickle.load(f)
-    model.load("model.tflearn")
+
+    ops.reset_default_graph()
+    net = tflearn.input_data(shape=[None, len(training[0])])
+    net = tflearn.fully_connected(net, 8) # hidden layer
+    net = tflearn.fully_connected(net, 8) # hidden layer
+    net = tflearn.fully_connected(net, len(output[0]), activation="softmax") # output layer
+    net = tflearn.regression(net)
+    global model 
+    model = tflearn.DNN(net)
+    model.load("./model.tflearn")
+    stemmer = LancasterStemmer()
 
   except:
     print("Something seems wrong. Please ensure necessary files are present in the working directory")
@@ -61,7 +88,7 @@ def reply(update, context):
       results_index = np.argmax(results)
       tag = labels[results_index]
 
-      if results[0][results_index] > 0.8:
+      if results[0][results_index] > 0.6:
         for tg in data["intents"]:
           if tg["tag"] == tag:
             responses = tg["responses"]
@@ -79,7 +106,7 @@ def reply(update, context):
     )
 
 if __name__ == "__main__":
-    load_model()
+    load()
     
     updater = Updater(token = TOKEN, use_context=True)
     dispatcher = updater.dispatcher

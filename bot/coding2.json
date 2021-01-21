@@ -1,0 +1,76 @@
+{"intents": [
+        {"tag": "modules in  python",
+         "patterns": ["what are modules in python","explain modules in python"],
+         "responses": [ "In Python, module is the way to structure program. Each Python program file is a module, which imports other modules like objects and attributes. The folder of Python program is a package of modules.  A package can have modules or subfolders."],
+         "context_set": ""
+        },
+        {"tag": "rules for local variables",
+         "patterns": ["Mention what are the rules for local variables in Python?","what are the rules for local variables "],
+         "responses": ["Local variables: If a variable is assigned a new value anywhere within the function’s body, it’s assumed to be local."],
+         "context_set": ""
+        },
+        {"tag": "rules for global variables",
+        "patterns": ["Mention what are the rules for global variables in Python?","what are the rules for global  variables "],
+        "responses": ["Global variables: Those variables that are only referenced inside a function are implicitly global."],
+        "context_set": ""
+        },
+        {"tag": "sharing global variables across modules ",
+         "patterns": ["How can you share global variables across modules?","suggest ways to share global variables "],
+         "responses": ["To share global variables across modules within a single program, create a special module.Import the config module in all modules of your application. The module will be available as a global variable across modules."],
+         "context_set": ""
+        },
+        {"tag": "python script execution on unix",
+         "patterns": ["Explain how can you make a Python Script executable on Unix?","how can we execute a python script on unix?"],
+         "responses": ["To make a Python Script executable on Unix, you need to do two things,Script file’s mode must be executable and the first line must begin with # ( #!/usr/local/bin/python)"         ],
+         "context_set": ""
+        },
+        {"tag": "deleting files in python",
+         "patterns": ["Explain how to delete a file in Python?"],
+         "responses": ["By using a command os.remove (filename) or os.unlink(filename)"],
+         "context_set": ""
+        },
+        {"tag": "random number generation in python",
+         "patterns": ["how can you generate random numbers in python?","can you explain the ways to generate random numbers in python?"],
+         "responses": ["To generate random numbers in Python, you need to import command as import random random.random() This returns a random floating point number in the range [0,1)"
+         
+         ],
+         "context_set": ""
+        },
+         {"tag": "accesing module written in c",
+                "patterns": ["Explain how to access a module writen in c in Python?","Explain how can you access a module written in Python from C?                "],
+                "responses": ["You can access a module written in Python from C by following method, Module =  =PyImport_ImportModule(“<modulename>”);"],
+                "context_set": ""
+               },
+               {"tag": "use of operators",
+                "patterns": ["Mention the use of // operator in Python?"],
+                "responses": ["It is a Floor Divisionoperator , which is used for dividing two operands with the result as quotient showing only digits before the decimal point. For instance, 10//5 = 2 and 10.0//5.0 = 2.0."],
+                "context_set": ""
+               },
+               {"tag": "benifits of using python",
+                "patterns": ["Mention five benefits of using Python?","what are the  benefits of using Python?"],
+                "responses": ["Python comprises of a huge standard library for most Internet platforms like Email, HTML, etc.  Python does not require explicit memory management as the interpreter itself allocates the memory to new variables and free them automatically Having the built-in data types saves programming time and effort from declaring variables Easy-to-learn for beginners Provide easy readability due to use of square brackets"],
+                "context_set": ""
+               },
+               {"tag": "split function use ",
+                "patterns": ["Mention the use of the split function in Python?                "],
+                "responses": ["The use of the split function in Python is that it breaks a string into shorter strings using the defined separator. It gives a list of all words present in the string.                "],
+                "context_set": ""
+               },
+               {"tag": "flask and benifits",
+                "patterns": ["Explain what is Flask & its benefits?","state benifits of flask"],
+                "responses": ["Flask is a web micro framework for Python based on “Werkzeug, Jinja 2 and good intentions” BSD licensed. Werkzeug and jingja are two of its dependencies.                "],
+                "context_set": ""
+               },
+               {"tag": "differences between django flask pyramid",
+                "patterns": ["Mention what is the difference between Django, Pyramid, and Flask?"],
+                "responses": ["Flask is a “microframework” primarily build for a small application with simpler requirements.  In flask, you have to use external libraries.  Flask is ready to use.Pyramid are build for larger applications.  It provides flexibility and lets the developer use the right tools for their project. The developer can choose the database, URL structure, templating style and more. Pyramid is heavy configurable.Like Pyramid, Django can also used for larger applications.  It includes an ORM."],
+                "context_set": ""
+               },
+               {"tag": "flask wtf and features",
+                "patterns": ["Mention what is Flask-WTF and what are their features?"],
+                "responses": ["lask-WTF offers simple integration with WTForms.  Features include for Flask WTF are Integration with wtformsGlobal csrf protection Internationalization integration   Recaptcha supporting"],
+                "context_set": ""
+               }
+               
+   ]
+}

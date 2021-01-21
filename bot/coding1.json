@@ -1,0 +1,421 @@
+{
+        "intents": [
+                {
+                        "tag": "variables",
+                        "patterns": [
+                                "What kind of variables a class can consist of?"
+                        ],
+                        "responses": [
+                                "A class consist of Local variable, instance variables and class variables.For more details, visit :https://www.geeksforgeeks.org/variables-in-java/"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "local variable",
+                        "patterns": [
+                                "What is a Local Variable?",
+                                "Define local variable.",
+                                "What is meant by local variable?"
+                        ],
+                        "responses": [
+                                "Variables defined inside methods, constructors or blocks are called local variables.The variable will be declared and initialized within the method  and it will be destroyed when the method has completed.For more details, visit :https://www.geeksforgeeks.org/variables-in-java/"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "instance variable",
+                        "patterns": [
+                                "What is a Instance Variable?",
+                                "Define instance variable.",
+                                "What is meant by instance variable?"
+                        ],
+                        "responses": [
+                                "Instance variables are variables within a class but outside any method.For more details, visit :https://www.geeksforgeeks.org/variables-in-java/"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "class variable",
+                        "patterns": [
+                                "What is a Class Variable?",
+                                "What is a static variable?",
+                                "Define class variable.",
+                                "What is meant by class variable?"
+                        ],
+                        "responses": [
+                                "These are variables declared with in a class, outside any method, with the static keyword.",
+                                "Class variables also known as static variables are declared with the static keyword in a class, but outside a method, constructor or a block.For more details, visit :https://www.geeksforgeeks.org/variables-in-java/"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "singleton class",
+                        "patterns": [
+                                "What is Singleton class?",
+                                "Explain singleton class",
+                                "What is meant by singleton class"
+                        ],
+                        "responses": [
+                                "Singleton class control object creation, limiting the number to one but allowing the flexibility to create more objects if the situation changes.For more details, visit : https://www.geeksforgeeks.org/singleton-class-java/"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "constructor",
+                        "patterns": [
+                                "What do you mean by Constructor?",
+                                "What is a constructor?",
+                                "Define constructor"
+                        ],
+                        "responses": [
+                                "Constructor gets invoked when a new object is created. Every class has a constructor.For more details, visit : https://www.geeksforgeeks.org/constructors-c/"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "object creation",
+                        "patterns": [
+                                "List the three steps for creating an Object for a class?",
+                                "How is an object created in a class?",
+                                "Steps to create an object.For more details, visit : https://www.geeksforgeeks.org/different-ways-create-objects-java/"
+                        ],
+                        "responses": [
+                                "An Object is first declared, then instantiated and then it is initialized."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "access modifier",
+                        "patterns": [
+                                "What do you mean by Access Modifier?",
+                                "what is access modifier?",
+                                "Explain access modifier."
+                        ],
+                        "responses": [
+                                "Java provides access modifiers to set access levels for classes, variables, methods and constructors. "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "operator precedence",
+                        "patterns": [
+                                "According to Java Operator precedence, which operator is considered to be with highest precedence?",
+                                "Which operator has higher precedence?",
+                                "Highest precedence operator."
+                        ],
+                        "responses": [
+                                "Postfix operators i.e  [] . is at the highest precedence. For more details, visit : https://www.tutorialspoint.com/Java-Operators-Precedence"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "parseInt",
+                        "patterns": [
+                                "When parseInt method can be used?",
+                                "Use of parseint."
+                        ],
+                        "responses": [
+                                "This method is used to get the primitive data type of a certain String.For more details,visit : https://www.geeksforgeeks.org/string-to-integer-in-java-parseint/"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "java.util.regex",
+                        "patterns": [
+                                "Which package is used for pattern matching with regular expressions?",
+                                "java.util.regex consists of which classes?"
+                        ],
+                        "responses": [
+                                "java.util.regex package is used for this purpose.",
+                                "java.util.regex consists of three classes − Pattern class, Matcher class and PatternSyntaxException class."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "finalize",
+                        "patterns": [
+                                "What is finalize method?",
+                                "Explain finalize method."
+                        ],
+                        "responses": [
+                                "It is possible to define a method that will be called just before an object's final destruction by the garbage collector.This method is called finalize, and it can be used to ensure that an object terminates cleanly."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Exception",
+                        "patterns": [
+                                "What is an Exception?",
+                                "Define exception.",
+                                "What is meant by exception?"
+                        ],
+                        "responses": [
+                                "An exception is a problem that arises during the execution of a program.Exceptions are caught by handlers positioned along the thread's method invocation stack.For more details,visit : https://www.geeksforgeeks.org/exception-handling-c/"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Checked Exceptions",
+                        "patterns": [
+                                "What do you mean by Checked Exceptions?",
+                                "What is checked exception?",
+                                "deine checked exception."
+                        ],
+                        "responses": [
+                                "It is an exception that is typically a user error or a problem that cannot be foreseen by theprogrammer.For example, if a file is to be opened, but the file cannot be found, an exception occurs. These exceptions cannot simply be ignored at the time of compilation. Need more details? Visit : https://www.geeksforgeeks.org/checked-vs-unchecked-exceptions-in-java/"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Runtime Exception",
+                        "patterns": [
+                                "Explain Runtime Exceptions?",
+                                "What is runtime exception?",
+                                "Define runtime exception."
+                        ],
+                        "responses": [
+                                "It is an exception that occurs that probably could have been avoided by the programmer.As opposed to checked exceptions, runtime exceptions are ignored at the time of compliation."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Exception class",
+                        "patterns": [
+                                "Which are the two subclasses under Exception class?",
+                                "subclasses of exception class."
+                        ],
+                        "responses": [
+                                "The Exception class has two main subclasses : IOException class and RuntimeException Class."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "throws keyword",
+                        "patterns": [
+                                "When throws keyword is used?",
+                                "Explain usage of throws.",
+                                "When to use throws?"
+                        ],
+                        "responses": [
+                                "If a method does not handle a checked exception, the method must declare it using the throwskeyword. The throws keyword appears at the end of a method's signature.",
+                                "An exception can be thrown, either a newly instantiated one or an exception that you just caught,by using throw keyword."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "finally",
+                        "patterns": [
+                                "How finally used under Exception Handling?",
+                                "How to use finally?",
+                                "Use of finally keyword."
+                        ],
+                        "responses": [
+                                "The finally keyword is used to create a block of code that follows a try block. A finally block of code always executes, whether or not an exception has occurred."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Inheritance",
+                        "patterns": [
+                                "Define Inheritance?",
+                                "What is meant by inheritance?",
+                                "Explain inheritance.",
+                                "What is inheritance?"
+                        ],
+                        "responses": [
+                                "It is the process where one object acquires the properties of another. With the use of inheritance the information is in a hierarchical order. For further read, visit : https://www.geeksforgeeks.org/inheritance-in-c/"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "super",
+                        "patterns": [
+                                "When super keyword is used?",
+                                "use of super",
+                                "Why super keyword is used?"
+                        ],
+                        "responses": [
+                                "If the method overrides one of its superclass's methods, overridden method can be invoked through the use of the keyword super. It can be also used to refer to a hidden field."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Polymorphism",
+                        "patterns": [
+                                "What is Polymorphism?",
+                                "Define polymorphism.",
+                                "Explain polymorphism."
+                        ],
+                        "responses": [
+                                "Polymorphism is the ability of an object to take on many forms.The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object. For further details, visit : https://www.geeksforgeeks.org/polymorphism-in-c/"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Abstraction",
+                        "patterns": [
+                                "What is Abstraction?",
+                                "When Abstract methods are used?",
+                                "Explain Abstraction.",
+                                "Define Abstraction.",
+                                "usageof Abstraction."
+                        ],
+                        "responses": [
+                                "It refers to the ability to make a class abstract in OOP. It helps to reduce the complexity and also improves the maintainability of the system.",
+                                "If you want a class to contain a particular method but you want the actual implementation of that method to be determined by child classes.you can declare the method in the parent class as abstract.For more details,visit : https://www.geeksforgeeks.org/abstraction-in-java-2/"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Abstract class",
+                        "patterns": [
+                                "What is Abstract class?",
+                                "define Abstract class",
+                                "explain abstract class"
+                        ],
+                        "responses": [
+                                "TThese classes cannot be instantiated and are either partially implemented or not at all implemented. This class contains one or more abstract methods which are simply method declarations without a body."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Encapsulation",
+                        "patterns": [
+                                "What is Encapsulation?",
+                                "What is the primary benefit of Encapsulation?",
+                                "explain encapsulation.",
+                                "what is meant by encapsulation?",
+                                "define encapsulation"
+                        ],
+                        "responses": [
+                                "TIt is the technique of making the fields in a class private and providing access to the fields via public methods.If a field is declared private, it cannot be accessed by anyone outside the class,thereby hiding the fields within the class. Therefore encapsulation is also referred to as data hiding.",
+                                "The main benefit of encapsulation is the ability to modify our implemented code without breaking the code of others who use our code.With this Encapsulation gives maintainability, flexibility and extensibility to our code. For more help, visit : https://www.geeksforgeeks.org/difference-between-abstraction-and-encapsulation-in-java-with-examples/"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Interface",
+                        "patterns": [
+                                "What is an Interface?",
+                                "Give some features of Interface?",
+                                "explain interface.",
+                                "advantages of interface."
+                        ],
+                        "responses": [
+                                "An interface is a collection of abstract methods. A class implements an interface, thereby inheriting the abstract methods of the interface.It includes −Interface cannot be instantiated −All of the methods in an interface are abstract."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "garbage collection",
+                        "patterns": [
+                                "Explain garbage collection in Java?",
+                                "explain garbage collection.",
+                                "what is garbage collection?"
+                        ],
+                        "responses": [
+                                "It uses garbage collection to free the memory. By cleaning those objects that is no longer reference by any of the program. For more details, visit : https://www.geeksforgeeks.org/garbage-collection-java/"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "immutable object",
+                        "patterns": [
+                                "Define immutable object.",
+                                "what is meant by immutable object?",
+                                "what is immutable object?"
+                        ],
+                        "responses": [
+                                "An immutable object can’t be changed once it is created. For more details, visit : https://www.geeksforgeeks.org/mutable-vs-immutable-objects-in-python/"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "this keyword",
+                        "patterns": [
+                                "Explain the usage of this with constructors?",
+                                "how to use this keyword?",
+                                "this keyword"
+                        ],
+                        "responses": [
+                                "It is used with variables or methods and used to call constructer of same class."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Set Interface",
+                        "patterns": [
+                                "Explain Set Interface",
+                                "what is set interface?",
+                                "define set interface."
+                        ],
+                        "responses": [
+                                "TIt is a collection of element which cannot contain duplicate elements.The Set interface contains only methods inherited from Collection and adds the restriction that duplicate elements are prohibited."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "fTreeSet",
+                        "patterns": [
+                                "Explain TreeSet?",
+                                "define TreeSet.",
+                                "what is TreeSet?"
+                        ],
+                        "responses": [
+                                "TIt is a Set implemented when we want elements in a sorted order."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Comparable Interface",
+                        "patterns": [
+                                "What is Comparable Interface?",
+                                "explain Comparable interface",
+                                "define Comparable interface"
+                        ],
+                        "responses": [
+                                "It is used to sort collections and arrays of objects using the collections.sort and java.utils.The objects of the class implementing the Comparable interface can be ordered."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "WAR file",
+                        "patterns": [
+                                "What is a WAR file?",
+                                "war file",
+                                "deine war file",
+                                "how to use war file?",
+                                "when to use war file?"
+                        ],
+                        "responses": [
+                                "This is Web Archive File and used to store XML, java classes, and JavaServer pages. which is usedto distribute a collection of JavaServer Pages.Java Servlets, Java classes, XML files, static Web pages etc."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "JIT compiler",
+                        "patterns": [
+                                "Define JIT compiler?",
+                                "what is jit compiler?",
+                                "use of jit compiler."
+                        ],
+                        "responses": [
+                                "It improves the runtime performance of computer programs based on bytecode."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "ubuntu",
+                        "patterns": [
+                                "should i install ubuntu?",
+                                "is ubuntu better than windows",
+                                "is ubuntu the best",
+                                "how to install ubuntu"
+                        ],
+                        "responses": [
+                                "Linux distros are very handy and easily compatible for most development, security environments. Wouldn't advise not installing it XD !"
+                        ],
+                        "context_set": ""
+                }
+        ]
+}
